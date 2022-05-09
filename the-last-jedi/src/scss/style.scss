@@ -1,0 +1,123 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    height: 3rem;
+    display: flex;
+    justify-content: flex-start;
+    background-color: gray;
+
+
+    &__link {
+        text-decoration: none;
+        color: white;
+        padding: 1rem 2rem;
+
+    }
+
+}
+
+.page_header_container {
+
+    &_h1 {}
+
+    &_h2 {}
+
+}
+
+
+.plot {
+
+    &_h2 {}
+
+    &_article {
+
+        &_poster {}
+
+        &_h3 {}
+
+        &_text {}
+
+    }
+
+
+
+
+
+}
+
+.characters {
+
+    &_h2 {}
+
+    &avatars {
+
+        &_img {
+
+            &_img__circle {}
+        }
+    }
+}
+
+
+.ratings {}
+
+.ratings_h2 {}
+
+.ratings_bars {}
+
+.ratings_bars_score {}
+
+.ratings_bars_bar {}
+
+.ratings_bars_lbl {}
+
+.cast {}
+
+.cast_h3 {}
+
+.cast_article {}
+
+.cast_article_img {}
+
+.cast_article_text {}
+
+.cast_article_text_h3 {}
+
+.cast_article_text_p {}
+
+.cast_avatars {}
+
+.cast_avatars_img {}
+
+.cast_avatars_img__rec {}
+
+.cast_avatars_img__lbl {}
+
+.gallery {}
+
+.gallery_imgs {}
+
+.gallery_imgs_img {}
+
+.gallery_btn__right {}
+
+.gallery_btn__left {}
