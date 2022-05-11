@@ -36,88 +36,145 @@ main {
 }
 
 .page_header_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/welcome.jpg");
+    padding: 4rem 0;
 
-    &_h1 {}
+    &_h1 {
+        font-size: 3rem;
+        text-align: center;
+        color: white;
+        margin: 0;
+        font-size: 4rem;
+        font-weight: 400;
+    }
 
-    &_h2 {}
+    &_h2 {
+        font-size: 2rem;
+        text-align: center;
+        color: lightgray;
+        margin: 0;
+        font-weight: 400;
+    }
 
 }
 
 
 .plot {
+    background-color: lightgray;
 
-    &_h2 {}
-
-    &_article {
-
-        &_poster {}
-
-        &_h3 {}
-
-        &_text {}
-
+    &_h2 {
+        text-align: center;
+        font-size: 1.5rem;
     }
 
+    &_article {
+        display: flex;
+        padding: 2rem;
+
+
+        &_poster {
+
+            height: 20em;
+            margin-right: 1rem;
+        }
+
+        &_text {
+            padding: 1rem;
+
+            // &_h3 {}
+
+            &_p {
+                font-size: 1.2em;
+                line-height: 1.5em;
+            }
+
+        }
 
 
 
-
+    }
 }
 
+
 .characters {
+    min-height: 30em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: transparent url("/img/rey-standing.jpg") center center/cover no-repeat scroll;
 
-    &_h2 {}
+    &_h2 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
 
-    &avatars {
+    &_avatars {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.6rem;
 
         &_img {
 
-            &_img__circle {}
+            margin: 0 .25rem;
+            height: 3rem;
+            width: auto;
+
+
+
+            &__circle {
+                overflow: hidden;
+                border-radius: 50%;
+            }
         }
     }
 }
 
 
-.ratings {}
+// .ratings {}
 
-.ratings_h2 {}
+// .ratings_h2 {}
 
-.ratings_bars {}
+// .ratings_bars {}
 
-.ratings_bars_score {}
+// .ratings_bars_score {}
 
-.ratings_bars_bar {}
+// .ratings_bars_bar {}
 
-.ratings_bars_lbl {}
+// .ratings_bars_lbl {}
 
-.cast {}
+// .cast {}
 
-.cast_h3 {}
+// .cast_h3 {}
 
-.cast_article {}
+// .cast_article {}
 
-.cast_article_img {}
+// .cast_article_img {}
 
-.cast_article_text {}
+// .cast_article_text {}
 
-.cast_article_text_h3 {}
+// .cast_article_text_h3 {}
 
-.cast_article_text_p {}
+// .cast_article_text_p {}
 
-.cast_avatars {}
+// .cast_avatars {}
 
-.cast_avatars_img {}
+// .cast_avatars_img {}
 
-.cast_avatars_img__rec {}
+// .cast_avatars_img__rec {}
 
-.cast_avatars_img__lbl {}
+// .cast_avatars_img__lbl {}
 
-.gallery {}
+// .gallery {}
 
-.gallery_imgs {}
+// .gallery_imgs {}
 
-.gallery_imgs_img {}
+// .gallery_imgs_img {}
 
-.gallery_btn__right {}
+// .gallery_btn__right {}
 
-.gallery_btn__left {}
+// .gallery_btn__left {}
